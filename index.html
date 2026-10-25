@@ -1,18 +1,151 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#fff7f3"><title>给今天有点辛苦的你</title><style>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff7f3">
+<title>给今天有点辛苦的你</title>
+<style>
 :root{--ink:#453437;--muted:#89777a;--rose:#c96778;--deep:#9b4c5a;--blush:#fdebed;--cream:#fff8f4;--peach:#f8dfcf;--green:#558776;--shadow:0 18px 50px #8d58601a}*{box-sizing:border-box}body{margin:0;background:#f2e9e5;color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}.wrap{width:min(100%,440px);min-height:100vh;margin:auto;background:linear-gradient(180deg,#fff8f4,#fffdfb);padding:24px 20px 70px;overflow:hidden;position:relative}.petal{position:absolute;border-radius:50%;filter:blur(2px);opacity:.35;pointer-events:none}.p1{width:160px;height:160px;background:#f3b9c2;right:-80px;top:90px}.p2{width:110px;height:110px;background:#f6cda9;left:-60px;top:420px}.top{text-align:center;padding:12px 0 22px}.top small{color:var(--rose);letter-spacing:.14em}.top h1{font:30px Georgia,"Songti SC",serif;margin:12px 0 8px}.top p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}.love-card{background:linear-gradient(135deg,#f7ced4,#fae6d8);border-radius:28px;padding:26px;box-shadow:var(--shadow);position:relative}.love-card .heart{font-size:30px}.love-card h2{font:24px Georgia,"Songti SC",serif;margin:13px 0 9px}.love-card p{font-size:14px;line-height:1.75;margin:0;color:#72545a}.section-title{font-size:17px;margin:30px 2px 14px}.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.quick button{border:1px solid #efe0dd;background:white;border-radius:20px;padding:17px 7px;box-shadow:0 8px 24px #6141460b}.quick b,.quick span,.quick small{display:block}.quick b{font-size:25px;color:var(--rose)}.quick span{font-size:13px;font-weight:700;margin-top:9px}.quick small{font-size:10px;color:var(--muted);margin-top:4px}.panel{display:none;background:white;border:1px solid #eee0dd;border-radius:24px;padding:22px;margin-top:14px;animation:up .25s}.panel.show{display:block}@keyframes up{from{opacity:.2;transform:translateY(7px)}}.panel h3{margin:0 0 8px;font-size:17px}.panel p{font-size:13px;color:var(--muted);line-height:1.7}.timer{font:52px Georgia;color:var(--rose);text-align:center;margin:20px 0}.action{width:100%;border:0;background:var(--rose);color:white;border-radius:16px;padding:14px;font-weight:700}.action.secondary{background:#f8edef;color:var(--deep)}.steps{display:grid;gap:11px}.step{display:flex;gap:12px;align-items:flex-start;background:white;border:1px solid #eee0dd;border-radius:18px;padding:15px}.step i{font-style:normal;width:28px;height:28px;min-width:28px;display:grid;place-items:center;background:var(--blush);color:var(--deep);border-radius:50%;font-size:12px}.step strong{font-size:13px}.step p{font-size:11px;color:var(--muted);line-height:1.55;margin:5px 0 0}.study-plan{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.study-plan button{background:#fff;border:1px solid #eee0dd;border-radius:18px;padding:14px 7px}.study-plan b,.study-plan span{display:block}.study-plan b{font-size:12px}.study-plan span{font-size:10px;color:var(--muted);margin-top:5px}.study-plan button.active{border-color:var(--rose);background:var(--blush)}.study-advice{background:#fff;border:1px solid #eee0dd;border-radius:20px;padding:18px;margin-top:10px}.study-advice h3{font-size:14px;margin:0 0 7px}.study-advice p{font-size:12px;color:var(--muted);line-height:1.65;margin:0}.words{background:#fff;border:1px solid #eee0dd;border-radius:24px;padding:24px;text-align:center}.words .quote{font:20px/1.7 Georgia,"Songti SC",serif;min-height:68px;display:grid;place-items:center}.words small{color:var(--muted);font-size:11px}.words button{margin-top:15px}.partner{background:#f1f6f3;border-radius:24px;padding:21px}.partner h3{color:#416d5e;margin:0 0 13px}.check{display:flex;gap:10px;padding:10px 0;border-bottom:1px solid #dce8e2;font-size:13px;line-height:1.5}.check:last-child{border:0}.check input{accent-color:var(--green);width:18px;height:18px}.gentle-note{margin-top:30px;padding:17px;border-radius:18px;background:#f6f1ee;color:#7c6f71;font-size:11px;line-height:1.7}.gentle-note summary{font-weight:700;color:#65575a;cursor:pointer}.footer{text-align:center;color:#ab979a;font-size:10px;margin-top:28px}.breath-circle{width:130px;height:130px;background:linear-gradient(135deg,#f2aeb9,#f6d1c4);border-radius:50%;margin:25px auto;display:grid;place-items:center;color:white;font-weight:700;box-shadow:0 12px 32px #c9677840;transition:4s ease}.breath-circle.grow{transform:scale(1.35)}.toast{position:fixed;left:50%;bottom:25px;transform:translate(-50%,20px);background:#44373a;color:#fff;padding:12px 16px;border-radius:14px;font-size:12px;opacity:0;transition:.2s;width:min(360px,calc(100% - 40px));text-align:center}.toast.show{opacity:1;transform:translate(-50%,0)}@media(min-width:700px){body{padding:24px}.wrap{border-radius:30px;box-shadow:var(--shadow)}}
-</style></head><body><main class="wrap"><i class="petal p1"></i><i class="petal p2"></i><header class="top"><small>JUST FOR YOU</small><h1>先照顾好身体，再慢慢复习</h1><p>备考很重要，但疼痛时暂停一下不是偷懒。<br>先让身体舒服一点，效率才会回来。</p></header>
-<section class="love-card"><div class="heart">♡</div><h2>考研冲刺，不靠今天硬扛</h2><p>你已经坚持很久了。疼痛会占用注意力，休息、热敷和必要的止痛不是耽误备考，而是在保护后面的学习状态。</p></section>
-<h2 class="section-title">现在想先试试哪个？</h2><section class="quick"><button data-panel="heat"><b>♨</b><span>暖一暖</span><small>15 分钟热敷</small></button><button data-panel="breathe"><b>◌</b><span>慢呼吸</span><small>一起放松</small></button><button data-panel="rest"><b>☾</b><span>躺舒服</span><small>调整姿势</small></button></section>
-<section id="heat" class="panel"><h3>把温暖放在小腹上</h3><p>热水袋或热敷垫外面隔一层衣物，以温暖、不烫为准。我们先试 15 分钟。</p><div class="timer" id="time">15:00</div><button class="action" id="timerBtn">开始计时</button></section>
-<section id="breathe" class="panel"><h3>陪你呼吸一分钟</h3><p>吸气时不用太用力，慢慢来就好。跟着圆圈变大吸气，变小时呼气。</p><div class="breath-circle" id="breathCircle">准备好</div><button class="action" id="breathBtn">开始呼吸</button></section>
-<section id="rest" class="panel"><h3>找一个更舒服的姿势</h3><p>侧躺并轻轻蜷起双腿，或仰躺时在膝盖下垫一个枕头。腰背紧张的话，可以轻柔按摩，不要强力按压。</p><button class="action secondary" data-toast="很好，今天不用勉强自己。">我已经躺好啦</button></section>
-<h2 class="section-title">温柔一点的小步骤</h2><section class="steps"><article class="step"><i>1</i><div><strong>喝几口温水</strong><p>不需要强迫自己喝很多，舒服就好。</p></div></article><article class="step"><i>2</i><div><strong>吃一点容易消化的东西</strong><p>按自己的胃口来，不必相信某一种食物能“治好”痛经。</p></div></article><article class="step"><i>3</i><div><strong>轻轻活动或安心休息</strong><p>散步和拉伸可能有帮助；不舒服就停下来休息。</p></div></article><article class="step"><i>4</i><div><strong>需要止痛药时，按说明书使用</strong><p>布洛芬等非甾体抗炎药通常在疼痛刚开始时使用更有效，但不要把两种同类药叠加。若有消化道溃疡或出血、肾病、相关药物过敏、服用抗凝药，或哮喘曾被这类药诱发，应先咨询医生或药师。</p></div></article></section>
-<h2 class="section-title">今天怎么安排复习？</h2><section class="study-plan"><button data-level="light"><b>还能学习</b><span>低负荷模式</span></button><button data-level="pause"><b>很难集中</b><span>先暂停 20 分钟</span></button><button data-level="stop"><b>疼得明显</b><span>今天不硬扛</span></button></section><section id="studyAdvice" class="study-advice"><h3>先选一个最接近的状态</h3><p>不用拿今天和状态最好的那天比较。</p></section><h2 class="section-title">送你一句抱抱</h2><section class="words"><div class="quote" id="quote">“你已经很努力了，今天休息也算完成任务。”</div><small>来自一个很在意你的人</small><button class="action secondary" id="nextQuote">再听一句</button></section>
-<h2 class="section-title">如果他在你身边</h2><section class="partner"><h3>可以请他这样陪你</h3><label class="check"><input type="checkbox">准备温度合适的热水袋</label><label class="check"><input type="checkbox">倒一杯温水，找一点想吃的东西</label><label class="check"><input type="checkbox">少讲道理，多问一句“现在想要我怎么陪？”</label><label class="check"><input type="checkbox">帮忙承担一点家务，让你安心休息</label></section>
-<details class="gentle-note"><summary>有一种情况，请不要只靠忍耐</summary><p>如果疼痛突然非常剧烈、比平时明显更重，出现晕厥或呼吸困难，或可能怀孕同时有腹痛、异常出血，请及时寻求医疗帮助。若疼痛反复影响睡眠、上课或复习，或止痛药没有帮助，也值得找医生评估，而不是一直忍。</p></details><div class="footer">这是一个陪伴与舒缓页面，不提供诊断，也不能代替医生。</div><div id="toast" class="toast"></div></main><script>
+</style>
+<link rel="stylesheet" href="pet.css">
+</head>
+<body>
+<main class="wrap">
+<i class="petal p1">
+</i>
+<i class="petal p2">
+</i>
+<header class="top">
+<small>JUST FOR YOU</small>
+<h1>先照顾好身体，再慢慢复习</h1>
+<p>备考很重要，但疼痛时暂停一下不是偷懒。<br>先让身体舒服一点，效率才会回来。</p>
+</header>
+<section class="love-card">
+<div class="heart">♡</div>
+<h2>考研冲刺，不靠今天硬扛</h2>
+<p>你已经坚持很久了。疼痛会占用注意力，休息、热敷和必要的止痛不是耽误备考，而是在保护后面的学习状态。</p>
+</section>
+<h2 class="section-title">现在想先试试哪个？</h2>
+<section class="quick">
+<button data-panel="heat">
+<b>♨</b>
+<span>暖一暖</span>
+<small>15 分钟热敷</small>
+</button>
+<button data-panel="breathe">
+<b>◌</b>
+<span>慢呼吸</span>
+<small>一起放松</small>
+</button>
+<button data-panel="rest">
+<b>☾</b>
+<span>躺舒服</span>
+<small>调整姿势</small>
+</button>
+</section>
+<section id="heat" class="panel">
+<h3>把温暖放在小腹上</h3>
+<p>热水袋或热敷垫外面隔一层衣物，以温暖、不烫为准。我们先试 15 分钟。</p>
+<div class="timer" id="time">15:00</div>
+<button class="action" id="timerBtn">开始计时</button>
+</section>
+<section id="breathe" class="panel">
+<h3>陪你呼吸一分钟</h3>
+<p>吸气时不用太用力，慢慢来就好。跟着圆圈变大吸气，变小时呼气。</p>
+<div class="breath-circle" id="breathCircle">准备好</div>
+<button class="action" id="breathBtn">开始呼吸</button>
+</section>
+<section id="rest" class="panel">
+<h3>找一个更舒服的姿势</h3>
+<p>侧躺并轻轻蜷起双腿，或仰躺时在膝盖下垫一个枕头。腰背紧张的话，可以轻柔按摩，不要强力按压。</p>
+<button class="action secondary" data-toast="很好，今天不用勉强自己。">我已经躺好啦</button>
+</section>
+<h2 class="section-title">温柔一点的小步骤</h2>
+<section class="steps">
+<article class="step">
+<i>1</i>
+<div>
+<strong>喝几口温水</strong>
+<p>不需要强迫自己喝很多，舒服就好。</p>
+</div>
+</article>
+<article class="step">
+<i>2</i>
+<div>
+<strong>吃一点容易消化的东西</strong>
+<p>按自己的胃口来，不必相信某一种食物能“治好”痛经。</p>
+</div>
+</article>
+<article class="step">
+<i>3</i>
+<div>
+<strong>轻轻活动或安心休息</strong>
+<p>散步和拉伸可能有帮助；不舒服就停下来休息。</p>
+</div>
+</article>
+<article class="step">
+<i>4</i>
+<div>
+<strong>需要止痛药时，按说明书使用</strong>
+<p>布洛芬等非甾体抗炎药通常在疼痛刚开始时使用更有效，但不要把两种同类药叠加。若有消化道溃疡或出血、肾病、相关药物过敏、服用抗凝药，或哮喘曾被这类药诱发，应先咨询医生或药师。</p>
+</div>
+</article>
+</section>
+<h2 class="section-title">今天怎么安排复习？</h2>
+<section class="study-plan">
+<button data-level="light">
+<b>还能学习</b>
+<span>低负荷模式</span>
+</button>
+<button data-level="pause">
+<b>很难集中</b>
+<span>先暂停 20 分钟</span>
+</button>
+<button data-level="stop">
+<b>疼得明显</b>
+<span>今天不硬扛</span>
+</button>
+</section>
+<section id="studyAdvice" class="study-advice">
+<h3>先选一个最接近的状态</h3>
+<p>不用拿今天和状态最好的那天比较。</p>
+</section>
+<h2 class="section-title">送你一句抱抱</h2>
+<section class="words">
+<div class="quote" id="quote">“你已经很努力了，今天休息也算完成任务。”</div>
+<small>来自一个很在意你的人</small>
+<button class="action secondary" id="nextQuote">再听一句</button>
+</section>
+<h2 class="section-title">男朋友小宠物</h2>
+<section class="pet-home"><h3>研一男友小团子</h3><p>按住他捏一捏，松手就会弹回来</p><div class="boyfriend-pet" id="boyfriendPet" role="button" tabindex="0" aria-label="可以捏一捏的男朋友小宠物"><div class="arm left"></div><div class="arm right"></div><div class="pet-body"></div><div class="pet-hair"></div><div class="pet-face"><i class="eye left"></i><i class="eye right"></i><i class="cheek left"></i><i class="cheek right"></i><i class="mouth"></i></div></div><div class="pet-bubble" id="petBubble">今天不用硬扛，我在这儿陪你。</div><div class="pet-actions"><button class="hug-btn" id="hugPet">抱一下</button><button class="poke-btn" id="pokePet">捏捏他</button></div><div class="squish-count" id="squishCount">今天捏了 0 下 · 他完全不介意</div></section><h2 class="section-title">如果他在你身边</h2>
+<section class="partner">
+<h3>可以请他这样陪你</h3>
+<label class="check">
+<input type="checkbox">准备温度合适的热水袋</label>
+<label class="check">
+<input type="checkbox">倒一杯温水，找一点想吃的东西</label>
+<label class="check">
+<input type="checkbox">少讲道理，多问一句“现在想要我怎么陪？”</label>
+<label class="check">
+<input type="checkbox">帮忙承担一点家务，让你安心休息</label>
+</section>
+<details class="gentle-note">
+<summary>有一种情况，请不要只靠忍耐</summary>
+<p>如果疼痛突然非常剧烈、比平时明显更重，出现晕厥或呼吸困难，或可能怀孕同时有腹痛、异常出血，请及时寻求医疗帮助。若疼痛反复影响睡眠、上课或复习，或止痛药没有帮助，也值得找医生评估，而不是一直忍。</p>
+</details>
+<div class="footer">这是一个陪伴与舒缓页面，不提供诊断，也不能代替医生。</div>
+<div id="toast" class="toast">
+</div>
+</main>
+<script>
 const panels=document.querySelectorAll('.panel');document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>{panels.forEach(p=>p.classList.toggle('show',p.id===b.dataset.panel));document.getElementById(b.dataset.panel).scrollIntoView({behavior:'smooth',block:'center'})});
 let left=900,timer=null;const time=document.getElementById('time'),timerBtn=document.getElementById('timerBtn');function paint(){time.textContent=String(Math.floor(left/60)).padStart(2,'0')+':'+String(left%60).padStart(2,'0')}timerBtn.onclick=()=>{if(timer){clearInterval(timer);timer=null;timerBtn.textContent='继续计时';return}timerBtn.textContent='暂停';timer=setInterval(()=>{left--;paint();if(left<=0){clearInterval(timer);timer=null;timerBtn.textContent='完成啦';toast('热敷结束啦，感觉有没有舒服一点？')}},1000)};
 let breathing=false,breathTimer=null;const circle=document.getElementById('breathCircle'),breathBtn=document.getElementById('breathBtn');breathBtn.onclick=()=>{if(breathing){clearInterval(breathTimer);breathing=false;circle.classList.remove('grow');circle.textContent='准备好';breathBtn.textContent='重新开始';return}breathing=true;let count=0;breathBtn.textContent='停止';function cycle(){const inhale=count%2===0;circle.classList.toggle('grow',inhale);circle.textContent=inhale?'慢慢吸气':'轻轻呼气';count++;if(count>=12){clearInterval(breathTimer);breathing=false;setTimeout(()=>{circle.classList.remove('grow');circle.textContent='做得很好';breathBtn.textContent='再来一次'},4000)}}cycle();breathTimer=setInterval(cycle,4000)};
-const study={light:['低负荷复习就够了','把任务缩成 20–25 分钟：听熟悉课程、整理错题标签或背少量内容。每轮后休息 5–10 分钟，不用追求今天的总时长。'],pause:['先把疼痛降下来','先热敷并闭眼休息 20 分钟，再决定是否继续。恢复后只做最熟悉、认知负担最低的一项；仍难集中就停止。'],stop:['今天休息不是放弃','若疼痛明显影响坐立、睡眠或专注，先停止复习。必要时按说明书或专业建议止痛；若疼痛严重、比平时更重或药物无效，应寻求医疗帮助。']};document.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-level]').forEach(x=>x.classList.toggle('active',x===b));const v=study[b.dataset.level],box=document.getElementById('studyAdvice');box.innerHTML='<h3>'+v[0]+'</h3><p>'+v[1]+'</p>'});const quotes=['“疼痛不是你的错，你也不用为休息感到抱歉。”','“我没办法替你疼，但我愿意一直陪着你。”','“今天什么都不完成，也不影响你是很棒的人。”','“慢慢呼吸，难受会一点一点过去的。”','“想安静就安静，想撒娇也完全可以。”','“不用回复我，好好休息就好。我在。”'];let qi=0;document.getElementById('nextQuote').onclick=()=>{qi=(qi+1)%quotes.length;document.getElementById('quote').textContent=quotes[qi]};
+const study={light:['低负荷复习就够了','把任务缩成 20–25 分钟：听熟悉课程、整理错题标签或背少量内容。每轮后休息 5–10 分钟，不用追求今天的总时长。'],pause:['先把疼痛降下来','先热敷并闭眼休息 20 分钟，再决定是否继续。恢复后只做最熟悉、认知负担最低的一项；仍难集中就停止。'],stop:['今天休息不是放弃','若疼痛明显影响坐立、睡眠或专注，先停止复习。必要时按说明书或专业建议止痛；若疼痛严重、比平时更重或药物无效，应寻求医疗帮助。']};document.querySelectorAll('[data-level]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-level]').forEach(x=>x.classList.toggle('active',x===b));const v=study[b.dataset.level],box=document.getElementById('studyAdvice');box.innerHTML='<h3>'+v[0]+'</h3>
+<p>'+v[1]+'</p>'});const quotes=['“疼痛不是你的错，你也不用为休息感到抱歉。”','“我没办法替你疼，但我愿意一直陪着你。”','“今天什么都不完成，也不影响你是很棒的人。”','“慢慢呼吸，难受会一点一点过去的。”','“想安静就安静，想撒娇也完全可以。”','“不用回复我，好好休息就好。我在。”'];let qi=0;document.getElementById('nextQuote').onclick=()=>{qi=(qi+1)%quotes.length;document.getElementById('quote').textContent=quotes[qi]};
 function toast(t){const e=document.getElementById('toast');e.textContent=t;e.classList.add('show');clearTimeout(window.to);window.to=setTimeout(()=>e.classList.remove('show'),2500)}document.querySelectorAll('[data-toast]').forEach(b=>b.onclick=()=>toast(b.dataset.toast));
-</script></body></html>
+</script>
+<script src="pet.js"></script>
+</body>
+</html>
